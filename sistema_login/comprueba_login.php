@@ -19,7 +19,7 @@
 			if($numero_registros!=0){
 				session_start();	//crear una sesión
 				$_SESSION['usuario'] = $_POST['login'];
-				header("location:usuarios_registrados1.php");
+				header("location:usuarios_registrados.php");
 			}else{
 				header("location:login.php");
 			}	
